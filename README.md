@@ -99,13 +99,13 @@ The system emphasizes **clean UX**, **subtle CSS animations**, **data integrity*
   <tr>
     <td align="center" width="50%">
       <b>🔐 Student Login Page</b><br/><br/>
-      <img src="./assets/screenshots/student-login.png" alt="Student Login Page" width="100%"/>
+      <img src="./assets/student-login.png" alt="Student Login Page" width="100%"/>
       <br/>
       <sub>Mobile number & password-based secure authentication</sub>
     </td>
     <td align="center" width="50%">
       <b>📝 Registration / Application Form</b><br/><br/>
-      <img src="./assets/screenshots/admission-form.png" alt="Admission Form" width="100%"/>
+      <img src="./assets/admission-form.png" alt="Admission Form" width="100%"/>
       <br/>
       <sub>Dynamic multi-section form with conditional sibling reveal</sub>
     </td>
@@ -113,13 +113,13 @@ The system emphasizes **clean UX**, **subtle CSS animations**, **data integrity*
   <tr>
     <td align="center" width="50%">
       <b>📊 Student Dashboard</b><br/><br/>
-      <img src="./assets/screenshots/student-dashboard.png" alt="Student Dashboard" width="100%"/>
+      <img src="./assets/student-dashboard.png" alt="Student Dashboard" width="100%"/>
       <br/>
       <sub>Live application status & admin remarks</sub>
     </td>
     <td align="center" width="50%">
       <b>🛠️ Admin Dashboard</b><br/><br/>
-      <img src="./assets/screenshots/admin-dashboard.png" alt="Admin Dashboard" width="100%"/>
+      <img src="./assets/admin-dashboard.png" alt="Admin Dashboard" width="100%"/>
       <br/>
       <sub>Full CRUD control panel for managing applicants</sub>
     </td>
