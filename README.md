@@ -95,8 +95,6 @@ The system emphasizes **clean UX**, **subtle CSS animations**, **data integrity*
 
 ## 🖼️ Screenshots
 
-> 📌 *Replace the image paths below (`/assets/screenshots/...`) with your actual screenshot files once uploaded to the repository.*
-
 <table>
   <tr>
     <td align="center" width="50%">
