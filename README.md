@@ -27,6 +27,10 @@
     with complete control over the applicant lifecycle.
   </p>
 
+  <p>
+    <a href="https://github.com/joshi-akash/student-portal"><b>🔗 View Repository</b></a>
+  </p>
+
 </div>
 
 ---
@@ -54,6 +58,8 @@
 The **Doon University Admission Portal & SIS** is a lightweight, dependency-free (no frameworks) full-stack application designed to digitize and simplify the university admission process. It replaces manual, paper-based admission workflows with a **dual-interface system** — one for prospective students, and one for administrative staff — built entirely on core **PHP**, **MySQL**, and **vanilla front-end technologies**, making it fast, portable, and easy to deploy on any standard **LAMP/XAMPP** stack.
 
 The system emphasizes **clean UX**, **subtle CSS animations**, **data integrity**, and **secure authentication practices**, making it a strong demonstration of production-grade fundamentals without relying on heavyweight frameworks.
+
+🔗 **Repository:** [github.com/joshi-akash/student-portal](https://github.com/joshi-akash/student-portal)
 
 ---
 
@@ -154,7 +160,7 @@ The application follows a **classic procedural MVC-inspired flow**: front-end HT
 ## 📂 File Directory Breakdown
 
 ```
-doon-university-admission-portal/
+student-portal/
 │
 ├── 🖼️ university_logo.png       # Static brand asset — displayed across login, dashboard & header UI
 ├── ⚙️ db.php                    # Centralized MySQL connection file (host, user, pass, db name)
@@ -180,7 +186,13 @@ doon-university-admission-portal/
 ├── 🔄 update.php                # Backend handler — processes edits from edit.php and updates the DB
 ├── 🗑️ delete.php                # Backend handler — permanently removes a student record from the DB
 │
-└── 🚪 logout.php                # Universal session-destruction script for both student & admin roles
+├── 🚪 logout.php                # Universal session-destruction script for both student & admin roles
+│
+└── 📁 assets/                   # Screenshot images used in this README
+    ├── student-login.png
+    ├── admission-form.png
+    ├── student-dashboard.png
+    └── admin-dashboard.png
 ```
 
 ### 🔍 Architectural Role Summary
@@ -269,13 +281,13 @@ Follow these steps to run the project locally using **XAMPP**.
 
 ### 📥 Step 1 — Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/doon-university-admission-portal.git
+git clone https://github.com/joshi-akash/student-portal.git
 ```
 
 ### 📁 Step 2 — Move Project to htdocs
 Copy the entire project folder into your XAMPP `htdocs` directory:
 ```
-C:\xampp\htdocs\doon-university-admission-portal\
+C:\xampp\htdocs\student-portal\
 ```
 *(On macOS/Linux: `/Applications/XAMPP/htdocs/` or `/opt/lampp/htdocs/`)*
 
@@ -314,7 +326,7 @@ if ($conn->connect_error) {
 ### 🌐 Step 6 — Launch the Application
 Open your browser and navigate to:
 ```
-http://localhost/doon-university-admission-portal/index.php
+http://localhost/student-portal/index.php
 ```
 
 - **Student Access:** `index.php` → Register/Login → `admission_form.php` → `student_dashboard.php`
@@ -357,7 +369,9 @@ admin_login.php (Login) → admin_dashboard.php (View All Applicants)
 
 Full-Stack Developer | PHP & MySQL Enthusiast
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/akash-joshi-100808431)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joshi-akash)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/akash-joshi-100808431)
+[![Repo](https://img.shields.io/badge/Project%20Repo-student--portal-24292e?style=for-the-badge&logo=github&logoColor=white)](https://github.com/joshi-akash/student-portal)
 
 ---
 
@@ -366,10 +380,9 @@ Full-Stack Developer | PHP & MySQL Enthusiast
 This project is licensed under the **MIT License** — feel free to use, modify, and distribute with attribution.
 
 
-
 <div align="center">
 
-  ### ⭐ If you found this project useful, consider giving it a star!
+  ### ⭐ If you found this project useful, consider giving it a star on <a href="https://github.com/joshi-akash/student-portal">GitHub</a>!
 
   <sub>Built with ❤️ and countless cups of chai by <b>Akash Joshi</b></sub>
 
